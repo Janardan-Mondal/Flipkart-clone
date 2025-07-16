@@ -1,5 +1,5 @@
 import Logo from '../assets/Logo.svg'
-import threedots from '../assets/threedots.svg'
+import threedots from '../assets/threeDots.svg'
 import plusZone from '../assets/plus_zone.svg'
 import menu_1 from '../assets/menu_01.webp'
 import menu_2 from '../assets/menu_02.webp'
