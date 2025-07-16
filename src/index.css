@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* outline: 1px solid rgb(47, 35, 16); */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@theme {
+  --color-bg-primary: #f1f2f4;
+  --color-primary: #ffffff;
+  --color-search-bg: #f0f5ff;
+  --color-icon: #777a7e;
+  --color-placeholder: #696969;
+
+  /* animation */
+  --animate-fill-horizontal: fill-horizontal 4000ms linear;
+
+  @keyframes fill-horizontal {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 100%;
+    }
+  }
+
+  /* screenBreak point */
+  --breakpoint-1190: 1190px;
+}
